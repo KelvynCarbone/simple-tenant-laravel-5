@@ -37,7 +37,7 @@ class TenantObserver
      */
     public function creating(BaseModel $model)
     {
-        $model->product_id = Session::get('product_id');
+        $model->tenant_id = Session::get('tenant_id');
     }
 }
 ```
