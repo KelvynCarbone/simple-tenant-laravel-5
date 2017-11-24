@@ -1,5 +1,5 @@
-# simple-tenant-laravel-5
-A simple tenant in laravel 5 using observer, when you create any register this technique will check if tenant_id exist and will fill
+# Simple Tenant Laravel 5
+A simple tenant in laravel 5 using observer, when you create any register this technique will check if tenant_id exist and will fill.
 
 ## Step 1
 If you started a project, you may don't have a directory Traits, create then. After create, now you create your TenantTrait.php (look the example files).
@@ -40,4 +40,4 @@ class YourModel Extends Base Model {
 }
 ```
 
-Enjoyed!
+Enjoy!
