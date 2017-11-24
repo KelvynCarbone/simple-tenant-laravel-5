@@ -52,7 +52,6 @@ Every model needed extends a BaseModel.php, in this BaseModel you put use App\Tr
 ```php
 namespace App\Entities;
 use App\Traits\TenantTrait;
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class BaseModel extends Model
