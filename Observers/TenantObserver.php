@@ -9,7 +9,8 @@ class TenantObserver
 {
     public function creating(BaseModel $model)
     {
-        $model->tenant_id = Session::get('tenant_id');
+        if(isset($model->tenant_id))
+            $model->tenant_id = Session::get('tenant_id');
     }
     public function deleting(BaseModel $model)
     {
