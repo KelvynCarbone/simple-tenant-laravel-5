@@ -2,7 +2,7 @@
 A simple tenant in laravel 5 using observer, when you create any register this technique will check if tenant_id exist and will fill.
 
 ## Step 1
-If you started a project, you may don't have a directory Traits, create then. After create, now you create your TenantTrait.php (look the example files).
+If you started a project, you may don't have a Traits directory, create then. After create, now you create your TenantTrait.php (look the example files).
 
 ```php
 namespace App\Traits;
@@ -19,7 +19,7 @@ trait TenantTrait
 ```
 
 ## Step 2
-If you started a project, you may don't have a directory Observers, create then. Create and configure your TenantObserver.php (look the example files).
+If you started a project, you may don't have a Observers directory, create then. Create and configure your TenantObserver.php (look the example files).
 
 ```php
 namespace App\Observers;
