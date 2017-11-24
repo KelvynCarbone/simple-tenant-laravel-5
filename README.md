@@ -64,8 +64,8 @@ class BaseModel extends Model
 ```php
 namespace App\Entities;
 use App\Entities\BaseModel;
-class YourModel Extends BaseModel 
-{
+class YourModel Extends BaseModel {
+
 }
 ```
 
