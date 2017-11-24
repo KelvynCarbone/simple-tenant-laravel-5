@@ -36,7 +36,7 @@ Every model needed extends a BaseModel.php, in this BaseModel you put use App\Tr
 ```php
 use App\Entities\BaseModel;
 
-class YourModel Extends Base Model {
+class YourModel Extends BaseModel {
 }
 ```
 
