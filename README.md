@@ -12,4 +12,11 @@ IMPORTANT: If you didn't use the TenantTrait on all models you can use separate,
 
 Every model needed extends a BaseModel.php, in this BaseModel you put use App\Traits\TenantTrait; and use TenantTrait; (look the example files).
 
+```php
+use App\Entities\BaseModel;
+
+class YourModel Extends Base Model {
+}
+```
+
 Enjoyed!
