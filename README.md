@@ -43,7 +43,7 @@ class TenantObserver
 ```
 
 ## Step 3
-IMPORTANT: If you didn't use the TenantTrait on all models you can use separate, model by model.
+#### IMPORTANT: You do not want to use TenantTrait on all models by BaseModel, so you can call it model by model.
 
 Every model needed extends a BaseModel.php, in this BaseModel you put use App\Traits\TenantTrait; and use TenantTrait; (look the example files).
 
