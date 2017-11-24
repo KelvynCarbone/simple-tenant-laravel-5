@@ -22,10 +22,24 @@ trait TenantTrait
 If you started a project, you may don't have a directory Observers, create then. Create and configure your TenantObserver.php (look the example files).
 
 ```php
+namespace App\Observers;
+
+use App\Entities\BaseModel;
+use Illuminate\Support\Facades\Session;
+
+class TenantObserver
+{
+    /**
+     * Listen to the User created event.
+     *
+     * @param  \User  $user
+     * @return void
+     */
     public function creating(BaseModel $model)
     {
         $model->product_id = Session::get('product_id');
     }
+}
 ```
 
 ## Step 3
